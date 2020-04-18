@@ -21,4 +21,16 @@ Things you may want to cover:
 
 * Deployment instructions
 
+
+***To avoid error---- ActionView::Template::Error: Permission denied @ rb_file_s_rename -
+
+In test/test_helper.rb, commented out the following line:
+
+# parallelize(workers: :number_of_processors, with: :threads)
+no parallell testing, no problem
+
+***end
+
+
+
 * ...
