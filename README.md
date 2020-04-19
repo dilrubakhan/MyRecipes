@@ -37,6 +37,8 @@ no parallell testing, no problem
 - app/javascript/pack/application.js -  to modify code
 -app/view/layouts/application.html.erb 
 
+3. https://learn.shayhowe.com/ to practice html and CSS
+
 ***end
 
 
