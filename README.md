@@ -22,12 +22,20 @@ Things you may want to cover:
 * Deployment instructions
 
 
-***To avoid error---- ActionView::Template::Error: Permission denied @ rb_file_s_rename -
+1. To avoid error---- ActionView::Template::Error: Permission denied @ rb_file_s_rename -
 
 In test/test_helper.rb, commented out the following line:
 
 # parallelize(workers: :number_of_processors, with: :threads)
 no parallell testing, no problem
+
+
+2. To install boostrap
+
+- yarn add boostrap jquery popper.js
+- Config/webpack/environment.js -  to modify code
+- app/javascript/pack/application.js -  to modify code
+-app/view/layouts/application.html.erb 
 
 ***end
 
